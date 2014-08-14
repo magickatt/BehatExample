@@ -1,16 +1,21 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: magickatt
- * Date: 21/03/2014
- * Time: 09:24
- */
 
 namespace Shopping\Fruit;
 
+/**
+ * Interface FruitInterface
+ * @package Shopping\Fruit
+ */
+interface FruitInterface
+{
+    /**
+     * @return string Name of the fruit
+     */
+    public function getName();
 
-interface FruitInterface {
-
+    /**
+     * @return int Calories when consuming the fruit
+     */
     public function getCalories();
 
 } 
