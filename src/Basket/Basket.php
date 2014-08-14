@@ -3,6 +3,7 @@
 namespace Shopping\Basket;
 
 use Shopping\Fruit\Apple;
+use Shopping\Fruit\Pear;
 use Shopping\Fruit\FruitInterface;
 
 /**

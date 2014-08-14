@@ -9,4 +9,5 @@ Feature: Basket
 
   Scenario: The basket should have certain fruit in it
     Given I am on "basket"
-    Then I should see "Basket"
+    Then I should see "Apple"
+    And I should see "Pear"
